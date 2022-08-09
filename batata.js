@@ -2,11 +2,13 @@ var clique = 0;
 
 function myFunction() {
     document.getElementById("batatas").innerHTML = "Você clico >:O";
+    document.getElementById("batatas").innerHTML = "You clicked >:O";
     clique = 1;
   }
 function WhichButton(event){
     if(event.button  == 2){
         alert("Não inspeciona meu site >:o");
+        alert("Do not inspect my site >:o");
     }
     else;
 }
@@ -14,6 +16,7 @@ function Mudardentro(x){
     if(clique == 0){
         document.getElementById("batatas").style.fontSize="30px";
         document.getElementById("batatas").innerHTML="NÃO CLICA... >:(";
+        document.getElementById("batatas").innerHTML="do NOT... >:(";
     }
     else;
 }
@@ -21,6 +24,7 @@ function Mudarfora(x){
     if(clique == 0){
         document.getElementById("batatas").style.fontSize="20px";
         document.getElementById("batatas").innerHTML="Obrigado :)";
+        document.getElementById("batatas").innerHTML="Thank you :)";
     }
     else;
 }
